@@ -1,0 +1,135 @@
+@import '~antd/dist/antd.css';
+
+.ant-layout-content{
+  background-image: url(./assets/img/bg.jpg);
+  height: 883px;
+}
+
+#detailavatar{
+  position: absolute;
+  left: 50%;
+  width: 62px;
+  border-radius: 62px;
+  transform: translateX(-50%)
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#components-layout-demo-top .logo {
+  width: 120px;
+  height: 31px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px 24px 16px 0;
+  float: left;
+}
+
+#Logo {
+  width: 94px;
+  height: 30px;
+  background-image: url(./assets/img/v2ex@2x.png);
+  background-size: 94px 30px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#loginform .login-form {
+  max-width: 360px;
+}
+#loginform .login-form-forgot {
+  float: right;
+}
+#loginform .login-form-button {
+  width: 100%;
+}
+
+#ant-regform {
+  max-width: 550px;
+  margin: 0 auto;
+  padding-right: 79px;
+  margin-top: 30px;
+
+}
+
+#loginform {
+  max-width: 360px;
+  margin: 0 auto;
+  margin-top: 66px;
+}
+
+.graybg {
+  background-color: #f1f3f5;
+}
+
+#topic-show {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+#menu {
+  margin: 0 auto;
+  max-width: 1100px;
+}
+
+#menu li{
+  float: right;
+}
+
+#Logo {
+  position: absolute;
+  left: 0;
+  top: 8px;
+}
+
+.ant-comment-content-detail p {
+  color: black;
+}
+
+#showUt {
+  width: 100%;
+  height: 265px;
+  background-color: red;
+}
+
+#biglogo {
+  width: 190px;
+  height: 195px;
+  background: url(./assets/img/logo.jpg) no-repeat center;
+  background-size: 100%;
+}
+
+.plan {
+  display: none;
+}
